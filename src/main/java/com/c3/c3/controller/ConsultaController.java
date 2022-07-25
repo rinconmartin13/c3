@@ -12,4 +12,9 @@ public class ConsultaController {
     public String getConsulta(){
         return ("camarada que onda");
     }
+
+    @GetMapping("hello")
+    public String getHello(){
+        return ("holaaaaa");
+    }
 }
