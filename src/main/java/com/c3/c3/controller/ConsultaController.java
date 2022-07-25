@@ -10,7 +10,7 @@ public class ConsultaController {
 
     @GetMapping("consulta")
     public String getConsulta(){
-        return ("camarada que onda");
+        return ("Prueba Final");
     }
 
     @GetMapping("hello")
